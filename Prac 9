@@ -1,0 +1,23 @@
+document.getElementById('s_birth').innerHTML="ENTER VALID BIRTH DATE";
+ }
+ else
+ {
+ document.getElementById('s_birth').innerHTML="*";
+ }
+ }
+ function confirmFunction()
+ {
+ var msg=confirm("ARE YOU SURE");
+ if(msg===true)
+ {
+ alert("THANKS......");
+ }
+ else
+ {
+ alert("PLEASE ENTER AGAIN");
+ }
+ }
+</script>
+</body>
+</html>
+5
